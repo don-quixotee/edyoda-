@@ -1,0 +1,45 @@
+.styled-form label,
+input {
+    display: block;
+}
+
+.styled-form label {
+    margin-bottom: 10px;
+}
+
+.styled-form input {
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+
+.styled-form input[type=submit] {
+    width: 120px;
+    font-size: 30px;
+}
+
+
+.styled-form input[type=text] {
+    border: 2px solid #7facaa;
+}
+
+
+.styled-form input[type=text] {
+    font-size: 24px;
+    padding: 7px;
+}
+
+textarea {
+    width: 500px;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #7facaa;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+
+.styled-form input[type=checkbox],
+label[for=checkbox-label] {
+    display: inline;
+}

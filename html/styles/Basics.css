@@ -1,0 +1,24 @@
+p {
+    text-overline: 3;
+}
+
+p {
+    text-overline: 3;
+    text-underline: dot-dash;
+    color: red;
+}
+
+
+ul li {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+
+ul li:hover {
+    color: pink;
+}
+
+ol li:first-child {
+    color: lightcoral;
+}
