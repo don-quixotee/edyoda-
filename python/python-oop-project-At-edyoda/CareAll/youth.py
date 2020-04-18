@@ -22,7 +22,7 @@ class Youth(Alluser):
         return self.fund
     
     def displayElder(self):
-        for name in elderlist:
+        for name in self.elderlist:
             print(name)
 
     def adoptElder(self, allelders):

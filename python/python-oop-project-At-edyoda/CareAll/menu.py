@@ -34,8 +34,7 @@ __________________________________________________________________________
 ------------------------
 2. For Rating & Writing Reviews
 ------------------------
-3. For User Details
-------------------------
+3. To pass
 __________________________________________________________________________
 
 """)
@@ -90,8 +89,8 @@ elif choice =="2":
         for youth in youthList:
             print("________________________________________________________________________")
             print()
-
-            youth.setRating(input("enter your rating:  "))
+            # print("rate for {}".format(youth.name))
+            youth.setRating(input("enter your rating for {} :  ".format(youth.name)))
 
             print("_________________________________________________________________________")
             print()
@@ -102,50 +101,17 @@ elif choice =="2":
         for elder in elderList:
             print("__________________________________________________________________________")
             print()
-            elder.setRating(input("please enter your rating:  "))
+            elder.setRating(input("please enter your rating for {}: ".format(elder.name)))
             print("__________________________________________________________________________")
             print()
             elder.setReview(input("write your review:  "))
             print("__________________________________________________________________________")
     else:
         print("Invalid choice")
+else:
+    pass
             
           
-    
-elif choice == "3":
-    print("---------------------------------------------------------------------------------")
-    print("""
-           please enter:
-           1 for elders detail
-           2 for youth details""")
-    print("---------------------------------------------------------------------------------")
-    print()
-
-    x = input()
-
-    print()
-
-    print("___________________________________________________________________________________")
-    print()
-
-    if x =="1":
-        for elder in elderList:
-            elder.display()
-    elif x == "2":
-        for youth in youthList:
-            youth.display()
-    else:
-        print("Invalid choice")
-
-else:
-    print("Invalid Choice")
-
-
-    print("___________________________________________________________________________________")
-    
-
-
-
 
 
 

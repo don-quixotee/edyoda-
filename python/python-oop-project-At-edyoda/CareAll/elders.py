@@ -21,7 +21,7 @@ class Elder(Alluser):
     
     def approveAdoption(self, youth):
         if self.status == True:
-            print("--------------------","Care taker detain","------------------------------")
+            print("--------------------","Care taker detail","------------------------------")
             print()
 
             print("Name = {}, Age = {}, Gender = {}".format(youth.name, youth.age, youth.gender))

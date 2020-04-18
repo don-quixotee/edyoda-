@@ -11,14 +11,16 @@ class Alluser:
         
     def getRating(self):
         return self.rating
-    def setStatus(self, status):
-        self.status = status
+   
 
     def setReview(self,review):
         self.review = review
 
     def getReview(self):
         return self.review
+        
+    def setStatus(self, status):
+        self.status = status
 
     def getStatus(self):
         return self.status
